@@ -1,0 +1,13 @@
+{
+  "name": "ing2mbox",
+  "version": "1.0.0",
+  "description": "ING Bank PDF --> sMoneybox CSV",
+  "main": "lib/ing2mbox.js",
+  "repository": "git@github.com:roman-kaspar/ing2mbox.git",
+  "author": "Roman Kaspar <roman@salsitasoft.com>",
+  "license": "MIT",
+  "dependencies": {
+    "argv": "^0.0.2",
+    "pdf2json": "^1.1.7"
+  }
+}
