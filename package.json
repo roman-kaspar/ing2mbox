@@ -1,6 +1,6 @@
 {
   "name": "ing2mbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ING Bank PDF --> sMoneybox CSV",
   "main": "lib/ing2mbox.js",
   "repository": "git@github.com:roman-kaspar/ing2mbox.git",
