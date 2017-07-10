@@ -9,7 +9,7 @@ history, but can be easily modified to any language (ping me if you are interest
 
 ```
 $ git clone git@github.com:roman-kaspar/ing2mbox.git
-$ yarn
+$ npm install
 ```
 
 ## Configuration
