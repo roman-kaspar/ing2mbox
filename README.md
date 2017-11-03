@@ -1,7 +1,6 @@
-[![Dependency Status](https://img.shields.io/david/salsita/ing2mbox.svg)](https://david-dm.org/salsita/ing2mbox)
-[![devDependency Status](https://img.shields.io/david/dev/salsita/ing2mbox.svg)](https://david-dm.org/salsita/ing2mbox?type=dev)
-![Licence](https://img.shields.io/npm/l/ing2mbox.svg?style=flat)
-[![Known Vulnerabilities](https://snyk.io/test/github/salsita/ing2mbox/badge.svg)](https://snyk.io/test/github/salsita/ing2mbox)
+[![Dependency Status](https://img.shields.io/david/roman-kaspar/ing2mbox.svg)](https://david-dm.org/roman-kaspar/ing2mbox)
+[![devDependency Status](https://img.shields.io/david/dev/roman-kaspar/ing2mbox.svg)](https://david-dm.org/roman-kaspar/ing2mbox?type=dev)
+[![Known Vulnerabilities](https://snyk.io/test/github/roman-kaspar/ing2mbox/badge.svg)](https://snyk.io/test/github/roman-kaspar/ing2mbox)
 
 # ing2mbox
 
