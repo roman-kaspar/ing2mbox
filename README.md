@@ -1,3 +1,8 @@
+[![Dependency Status](https://img.shields.io/david/salsita/ing2mbox.svg)](https://david-dm.org/salsita/ing2mbox)
+[![devDependency Status](https://img.shields.io/david/dev/salsita/ing2mbox.svg)](https://david-dm.org/salsita/ing2mbox?type=dev)
+![Licence](https://img.shields.io/npm/l/ing2mbox.svg?style=flat)
+[![Known Vulnerabilities](https://snyk.io/test/github/salsita/ing2mbox/badge.svg)](https://snyk.io/test/github/salsita/ing2mbox)
+
 # ing2mbox
 
 Small command line utility to convert ING Bank savings account transaction history (exported from their online banking,
@@ -9,7 +14,9 @@ history, but can be easily modified to any language (ping me if you are interest
 
 ```
 $ git clone git@github.com:roman-kaspar/ing2mbox.git
-$ npm install
+$ cd ing2mbox
+$ npm i
+$ npm test  # optional to see everything is fine
 ```
 
 ## Configuration
@@ -59,3 +66,25 @@ Options:
 For convenience you can add `ing2mbox/bin` to your PATH. By default the utility is looking for `mapping.json` file
 in current working directory. Unless `--quiet` option is provided, the utility prints out information about its activities.
 With `--debug` you'll get more detailed reports. The exit code is 0 on success, 1 on failures.
+
+## MIT License
+
+Copyright (c) 2017 Roman Kaspar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
