@@ -68,7 +68,7 @@ With `--debug` you'll get more detailed reports. The exit code is 0 on success, 
 
 ## MIT License
 
-Copyright (c) 2017 Roman Kaspar
+Copyright (c) 2017, 2018 Roman Kaspar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
