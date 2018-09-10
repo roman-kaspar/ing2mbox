@@ -1,15 +1,16 @@
 version: 2
-  jobs:
-    test:
-      machine: true
-      steps:
-        - checkout
-        - run: sudo npm install -g npm@latest
-        - restore_cache:
-            key: dependency-cache-{{ checksum "package.json" }}
-        - run: npm install
-        - save_cache:
-            key: dependency-cache-{{ checksum "package.json" }}
-            paths:
-              - ./node_modules
-        - run: npm test
+jobs:
+  test:
+    machine: true
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run: sudo npm install -g npm@latest
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run: npm install
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run: npm test
