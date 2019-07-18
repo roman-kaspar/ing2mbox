@@ -1,6 +1,6 @@
 {
   "name": "ing2mbox",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "ING Bank PDF --> sMoneybox CSV",
   "bin": {
     "ing2mbox": "bin/ing2mbox"
@@ -10,8 +10,8 @@
   "author": "Roman Kaspar <roman@salsitasoft.com>",
   "license": "MIT",
   "dependencies": {
-    "argv": "^0.0.2",
-    "pdf2json": "^1.1.8"
+    "argv": "0.0.2",
+    "pdf2json": "1.1.8"
   },
   "engines": {
     "node": ">= 6.0.0"
@@ -25,8 +25,8 @@
     "csv"
   ],
   "devDependencies": {
-    "eslint": "5.16.0",
-    "eslint-config-standard": "12.0.0",
+    "eslint": "6.0.1",
+    "eslint-config-standard": "13.0.1",
     "eslint-plugin-import": "2.18.0",
     "eslint-plugin-node": "9.1.0",
     "eslint-plugin-promise": "4.2.1",
