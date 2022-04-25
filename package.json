@@ -1,6 +1,6 @@
 {
   "name": "ing2mbox",
-  "version": "1.1.74",
+  "version": "1.1.75",
   "description": "ING Bank PDF --> sMoneybox CSV",
   "bin": {
     "ing2mbox": "bin/ing2mbox"
@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "argv": "0.0.2",
-    "pdf2json": "1.2.3"
+    "pdf2json": "2.0.1"
   },
   "engines": {
     "node": ">= 6.0.0"
