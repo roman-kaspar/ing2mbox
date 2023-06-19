@@ -1,6 +1,6 @@
 {
   "name": "ing2mbox",
-  "version": "1.1.74",
+  "version": "1.1.75",
   "description": "ING Bank PDF --> sMoneybox CSV",
   "bin": {
     "ing2mbox": "bin/ing2mbox"
@@ -10,7 +10,7 @@
   "author": "Roman Kaspar <roman@salsitasoft.com>",
   "license": "MIT",
   "dependencies": {
-    "argv": "0.0.2",
+    "argv": "0.0.3",
     "pdf2json": "1.2.3"
   },
   "engines": {
