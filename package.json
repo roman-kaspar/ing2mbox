@@ -1,6 +1,6 @@
 {
   "name": "ing2mbox",
-  "version": "1.1.74",
+  "version": "1.1.75",
   "description": "ING Bank PDF --> sMoneybox CSV",
   "bin": {
     "ing2mbox": "bin/ing2mbox"
@@ -29,7 +29,7 @@
     "eslint-config-standard": "14.1.1",
     "eslint-plugin-import": "2.23.4",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "4.3.1",
+    "eslint-plugin-promise": "6.6.0",
     "eslint-plugin-standard": "4.1.0"
   },
   "scripts": {
